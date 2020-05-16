@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>login form
+</title>
+<style>
+body
+{
+  
+  background:url(haunted.gif);
+  background-size:cover;
+  font-family:san-serif;
+}
+.logo
+{
+    text-align:center;
+    width:520px;
+	height:600px;
+	background:#000;
+	Color:#fff;
+	top:5%;
+	left:30%;
+	right:25%;
+	position:absolute;
+	transform:translate(-50% -50%);
+	box-sizing:border-box;
+	padding:40px 60px;
+}
+.logo p
+{
+   text-align: left;
+   margin-left: 112px;
+   font-weight:bold;
+   color:red;
+}
+
+</style>
+</head>
+<body>
+<div class="logo">
+<form>
+<img src="joker1.jpg">
+<h2 style="color:purple"><i>Welcome To My World</i></h2>
+<h3 style="text-align=center">USER LOGIN</h3>
+<div class="login-container">
+<p>Username:</p>
+<input type="text" name="user" size=25 placeholder="Enter Username" required="required">
+<p>Password:</p>
+<input type="password" name="pass" size=25 placeholder="Enter Password">
+</div>
+<br>
+<input type="reset">
+<input type="submit" value="sign in">
+<br><br>
+<a href="#">Forgot Your password?</a>
+
+</form>
+</div>
+
+</body>
+</html>
